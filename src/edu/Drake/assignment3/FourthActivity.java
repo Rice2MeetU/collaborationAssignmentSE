@@ -1,27 +1,22 @@
-package edu.Drake.assignment3;
+package edu.drake.assignment3;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class AnotherScreen extends ActionBarActivity {
-
-	public void sendMessage(View view) {
-		Intent intent = new Intent(this, ThirdActivity.class);
-		startActivity(intent);
-	}
+public class FourthActivity extends ActionBarActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_another_screen);
+		setContentView(R.layout.activity_thirdscrren);
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.another_screen, menu);
+		getMenuInflater().inflate(R.menu.thirdscrren, menu);
 		return true;
 	}
 

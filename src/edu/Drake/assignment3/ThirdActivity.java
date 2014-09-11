@@ -6,6 +6,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 public class ThirdActivity extends ActionBarActivity {
+	
+	public void sendMessage(View view) {
+		Intent intent = new Intent(this, FourthActivity.class);
+		startActivity(intent);
+	}
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

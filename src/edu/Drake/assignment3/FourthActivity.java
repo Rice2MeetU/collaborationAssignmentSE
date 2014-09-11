@@ -1,4 +1,4 @@
-package edu.drake.assignment3;
+package edu.Drake.assignment3;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -10,13 +10,13 @@ public class FourthActivity extends ActionBarActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_thirdscrren);
+		setContentView(R.layout.activity_fourth);
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.thirdscrren, menu);
+		getMenuInflater().inflate(R.menu.fourth, menu);
 		return true;
 	}
 

@@ -30,6 +30,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="edu.Drake.assignment3.MainActivity" />
         </activity>
+        <activity
+            android:name=".ThirdActivity"
+            android:label="@string/title_activity_third" >
+        </activity>
     </application>
 
 </manifest>

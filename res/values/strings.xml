@@ -7,5 +7,6 @@
     <string name="title_activity_another_screen">AnotherScreen</string>
     <string name="Button1">Next Screen</string>
     <string name="dmsc">DMSC prototype</string>
+    <string name="title_activity_third">ThirdActivity</string>
 
 </resources>
